@@ -1,0 +1,194 @@
+/* AvenirNext Regular*/
+@font-face {
+    font-family: "AvenirNext-Regular";
+    src: url('fonts/AvenirNext/AvenirNext-Regular.eot');
+    src: url('fonts/AvenirNext/AvenirNext-Regular?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNext/AvenirNext-Regular.woff') format('woff'),
+        url('fonts/AvenirNext/AvenirNext-Regular.svg') format('svg'),
+        url('fonts/AvenirNext/AvenirNext-Regular.ttf') format('truetype');
+
+}
+
+/* AvenirNext Bold*/
+@font-face {
+    font-family: "AvenirNext-Bold";
+    src: url('fonts/AvenirNext/AvenirNext-Bold.eot');
+    src: url('fonts/AvenirNext/AvenirNext-Bold?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNext/AvenirNext-Bold.woff') format('woff'),
+        url('fonts/AvenirNext/AvenirNext-Bold.svg') format('svg'),
+        url('fonts/AvenirNext/AvenirNext-Bold.ttf') format('truetype');
+
+}
+
+/* AvenirNext DemiBold*/
+@font-face {
+    font-family: "AvenirNext-DemiBold";
+    src: url('fonts/AvenirNext/AvenirNext-DemiBold.eot');
+    src: url('fonts/AvenirNext/AvenirNext-DemiBold?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNext/AvenirNext-DemiBold.woff') format('woff'),
+        url('fonts/AvenirNext/AvenirNext-DemiBold.svg') format('svg'),
+        url('fonts/AvenirNext/AvenirNext-DemiBold.ttf') format('truetype');
+
+}
+
+/* AvenirNext UltraLight*/
+@font-face {
+    font-family: "AvenirNext-UltraLight";
+    src: url('fonts/AvenirNext/AvenirNext-UltraLight.eot');
+    src: url('fonts/AvenirNext/AvenirNext-UltraLight?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNext/AvenirNext-UltraLight.woff') format('woff'),
+        url('fonts/AvenirNext/AvenirNext-UltraLight.svg') format('svg'),
+        url('fonts/AvenirNext/AvenirNext-UltraLight.ttf') format('truetype');
+
+}
+
+/* ZahrahforDouglas regular */
+
+@font-face {
+    font-family: "ZahrahforDouglas-Regular";
+    src: url("fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.eot");
+    src: url("fonts/ZahrahforDouglas/ZahrahforDouglas.eot?#iefix") format('embedded-opentype'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas.svg") format('svg'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas.otf") format('otf'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas.woff") format('woff'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas.ttf") format('truetype');
+
+}
+
+/* ZahrahforDouglas MediumIt */
+
+@font-face {
+    font-family: "ZahrahforDouglas-MediumIt";
+    src: url("fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.eot");
+    src: url("fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.eot?#iefix") format('embedded-opentype'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.svg") format('svg'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.otf") format('otf'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.woff") format('woff'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.ttf") format('truetype');
+
+}
+
+/* fonts/ZahrahforDouglas SemiboldIt */
+
+@font-face {
+    font-family: "ZahrahforDouglas-SemiboldIt";
+    src: url("fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.eot");
+    src: url("fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.eot?#iefix") format('embedded-opentype'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.svg") format('svg'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.otf") format('otf'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.woff") format('woff'),
+        url("fonts/ZahrahforDouglas/ZahrahforDouglas-SemiboldIt.ttf") format('truetype');
+
+}
+
+
+.fenster {
+    display: none;
+    /* Hidden by default */
+
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.fenster1 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.case_icon {
+    width: 5%;
+}
+
+.case_data {
+    width: 10%;
+
+}
+
+.item-foot {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .dice {
+        background-color: white;
+        text-align: center;
+        margin: 4px 2px;
+        transition: 0.4s;
+        color: black;
+        border: none;
+    }
+
+    .dice:hover {
+        background-color: green;
+        color: white;
+
+    }
