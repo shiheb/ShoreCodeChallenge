@@ -1,7 +1,7 @@
 # ShoreCodeChallenge
 A cold code challenge proposed by Shore Company
 
-#############################################################
+#####################################################################################################################################
 Welcome to the Ofﬂine Challenge for the Job Opening Website Development (Intern)
 
 I tried to follow exactly the mockups provided by the Design team.
@@ -16,6 +16,9 @@ the use of "em" , "strong" , "p", "blockquote" , "h1".."h6" tags to give a meani
 the code is SEO- friendly with using different tags and description for a better understanding from search engines.
 
 Bulma, semantic HTML tags, less frameworks and some animations were used in the code.
+
+
+#####################################################################################################################################
 
 Thank you for this opportunity to practice more the features of Bulma and webpacks.
 
