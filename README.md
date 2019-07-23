@@ -12,7 +12,7 @@ For a better resolution and experience , the website page works as well in wides
 I tried to use metatags from schema.org like  property="name" and property="description"
 always use alt tag for images  and " typeof ="url"  for the links  
 
-the use of "<em>" , "<strong>" , "<p>", "<blockquote>" , "<h1>".."<h6>" to give a meaning to HTML content (semantic HTML).
+the use of "em" , "strong" , "p", "blockquote" , "h1".."h6" tags to give a meaning to HTML content (semantic HTML).
 the code is SEO- friendly with using different tags and description for a better understanding from search engines.
 
 Bulma, semantic HTML tags, less frameworks and some animations were used in the code.
